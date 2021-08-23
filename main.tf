@@ -9,7 +9,7 @@ terraform {
   required_version = ">= 0.15.1"
 }
 
-resource "aws_instance" "app_sesrdvsesdrs" {
+resource "aws_instance" "app_sesrdvsewesdrs" {
   ami           = "ami-09e67e426f2d5ce0d7"
   instance_type = "t2.micro"
 
