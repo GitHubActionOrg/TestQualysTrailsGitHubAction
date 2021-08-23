@@ -14,7 +14,7 @@ resource "aws_instance" "app_server" {
   instance_type = "t2.micro"
 
   tags = {
-    Owner = "Shrikant ssDhanawade",
+    Owner = "Shrikant ssDhanaswade",
     Name  = "Test VM QA TEST"
   }
 }
