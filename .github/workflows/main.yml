@@ -1,6 +1,6 @@
 
 name: Qualys IAC Scan 
-on: workflow_dispatch
+on: push
 #   push:
 #     branches:
 #     - main
