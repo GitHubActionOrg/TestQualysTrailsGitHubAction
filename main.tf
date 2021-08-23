@@ -1,3 +1,4 @@
+dfgdfgdfg
 terraform {
   required_providers {
     aws = {
@@ -9,7 +10,7 @@ terraform {
   required_version = ">= 0.15.1"
 }
 
-resource "aws_instance" "app_server" {
+resource "aws_instance" "app_servers" {
   ami           = "ami-09e67e426f25ce0d7"
   instance_type = "t2.micro"
 
