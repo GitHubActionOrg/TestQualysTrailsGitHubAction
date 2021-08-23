@@ -1,4 +1,4 @@
-resource "aws_security_group" "project1-sga" {
+resource "aws_security_group" "projecdt1-sga" {
   vpc_id                 = var.vpc_id
 
   ingress {
