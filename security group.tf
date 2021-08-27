@@ -1,5 +1,3 @@
-756243756243
-
 resource "aws_security_group" "projecdst1-ssdqweqegsa" {
   vpc_id                 = var.vpc_id
 
