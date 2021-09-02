@@ -10,7 +10,7 @@ terraform {
 }
 
 resource "aws_instance" "app_server" {
-  ami           = "ami-09e67e426fs25ce0sssd7"
+  ami           = "ami-09e67e426fs25ce0ssssd7"
   instance_type = "t2.micro"
 
   tags = {
