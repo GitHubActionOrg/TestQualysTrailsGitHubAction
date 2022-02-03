@@ -23,7 +23,7 @@ jobs:
                 fetch-depth: 0
     
           - name: IAC scan action step
-            uses: QIntegration/github_action_qiac@main
+            uses: QIntegration/github_action_qiac@dev/1.1.0
             id: iac
             env:
                 URL: ${{ secrets.URL }}
