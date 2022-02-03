@@ -15,6 +15,6 @@ resource "aws_instance" "app_server" {
 
   tags = {
     Owner = "Shrikant Dhanawade",
-    Name  = "Test VM QA TEST"
+    Name  = "Test VM QA TEST1"
   }
 }
