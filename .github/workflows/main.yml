@@ -22,13 +22,13 @@ jobs:
             with:
                 fetch-depth: 0
     
-          - name: IAC scan action step
-            uses: QIntegration/github_action_qiac@dev/1.1.0
-            id: iac
-            env:
-                URL: ${{ secrets.URL }}
-                UNAME: ${{ secrets.USERNAME }}
-                PASS: ${{ secrets.PASSWORD }}
+#           - name: IAC scan action step
+#             uses: QIntegration/github_action_qiac@dev/1.1.0
+#             id: iac
+#             env:
+#                 URL: ${{ secrets.URL }}
+#                 UNAME: ${{ secrets.USERNAME }}
+#                 PASS: ${{ secrets.PASSWORD }}
                 
         
           - name: Upload SARIF file
