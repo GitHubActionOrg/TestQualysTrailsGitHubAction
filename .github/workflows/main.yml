@@ -29,4 +29,13 @@ jobs:
                 URL: ${{ secrets.URL }}
                 UNAME: ${{ secrets.USERNAME }}
                 PASS: ${{ secrets.PASSWORD }}
+                
+        
+          - name: Checkout repository
+            uses: actions/checkout@v2
+
+          - name: Upload SARIF file
+            uses: github/codeql-action/upload-sarif@v1
+            with:
+              sarif_file: response.sarif
 
