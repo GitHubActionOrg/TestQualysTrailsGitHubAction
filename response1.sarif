@@ -3,6 +3,10 @@
   "runs": [
     {
       "tool": {
+        "driver": {
+          "name": "",
+          "organization": ""
+        }
       },
       "results": []
     }
