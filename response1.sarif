@@ -4,8 +4,8 @@
     {
       "tool": {
         "driver": {
-          "name": "",
-          "organization": ""
+          "name": "QualysIaCSecurity",
+          "organization": "Qualys"
         }
       },
       "results": []
