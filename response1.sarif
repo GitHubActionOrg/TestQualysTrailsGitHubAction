@@ -2,12 +2,6 @@
   "version": "2.1.0",
   "runs": [
     {
-      "tool": {
-        "driver": {
-          "name": "QualysIaCSecurity",
-          "organization": "Qualys"
-        }
-      },
       "results": []
     }
   ]
