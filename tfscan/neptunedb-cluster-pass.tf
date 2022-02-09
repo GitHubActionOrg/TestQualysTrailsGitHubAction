@@ -1,5 +1,5 @@
 resource "aws_neptune_cluster" "neptunedb-cluster-pass" {
-  cluster_identifier = "neptunedb-cluster-pass1"
+  cluster_identifier = "neptunedb-cluster-pass12"
   storage_encrypted  = true #checkov CKV_AWS_44
   enable_cloudwatch_logs_exports = ["audit"] #checkov CKV_AWS_101
 }
