@@ -1,14 +1,14 @@
 name: Qualys IAC Scan 
 on: 
-  workflow_dispatch
+#  workflow_dispatch
 #   push:
 #     branches:
 #     - main
 #   pull_request:
 #         branches: [ main ] 
 
-#   schedule:
-#         - cron:  '*/5 * * * *'
+  schedule:
+        - cron:  '*/1 * * * *'
 
 
 jobs:
