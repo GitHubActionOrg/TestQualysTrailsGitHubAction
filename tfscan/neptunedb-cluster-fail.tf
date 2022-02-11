@@ -1,5 +1,5 @@
 resource "aws_neptune_cluster" "neptunedb-cluster-fail" {
-  cluster_identifier = "neptunedb-cluster-fail2"
+  cluster_identifier = "neptunedb-cluster-fail"
   storage_encrypted  = false #checkov CKV_AWS_44
   #enable_cloudwatch_logs_exports = ["audit"] #checkov CKV_AWS_101
 }
