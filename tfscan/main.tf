@@ -2,7 +2,7 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 3.29"
+      version = "~> 3.27"
     }
   }
 
@@ -10,11 +10,11 @@ terraform {
 }
 
 resource "aws_instance" "app_server" {
-  ami           = "ami-09e67e426fs25ce0ssssd7"
+  ami           = "ami-09e67e426f25ce0d7"
   instance_type = "t2.micro"
 
   tags = {
     Owner = "Shrikant Dhanawade",
-    Name  = "Test VM QA TEST"
+    Name  = "Test VM QA TEST1"
   }
 }
